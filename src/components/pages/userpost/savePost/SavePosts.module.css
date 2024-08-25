@@ -1,0 +1,76 @@
+.savedContainer,
+.d-savedContainer {
+  background: #fcfcfc;
+  border-radius: 16px;
+  min-height: 97vh;
+}
+
+.d-savedContainer {
+  background: #110e18;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7%;
+}
+
+.headerLeft {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.headerLeftInner {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.iconContainer_arrow {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.iconContainer_save {
+  height: 20px;
+  width: 20px;
+}
+
+.iconContainer_add {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+}
+
+.headerTittleContainer {
+}
+
+.tittle,
+.d-tittle {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+  color: #363636;
+}
+
+.d-tittle {
+  color: #fcfcfc;
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

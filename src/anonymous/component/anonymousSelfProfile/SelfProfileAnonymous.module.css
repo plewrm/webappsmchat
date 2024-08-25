@@ -1,0 +1,951 @@
+.spContainer {
+  background: #110e18;
+  min-height: 100vh;
+  padding-bottom: 2vh;
+  border-radius: 16px;
+}
+
+.InnerContainer {
+  padding: 24px 20px 24px 20px;
+}
+
+.spHeader {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.arrowIconContainer,
+.moreIconContainer {
+  max-width: 24px;
+  cursor: pointer;
+}
+
+.moreIconContainer {
+  margin-left: auto;
+}
+
+.arrowIcon,
+.moreIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.nameContainer {
+  max-width: 20vw;
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fcfcfc;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.ProfileBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.profilePicContainer {
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: #bebec0;
+}
+
+.profilePic {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userNameContainer {
+  max-width: 20vw;
+  margin-top: 8px;
+}
+
+.userName {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fcfcfcfc;
+}
+
+.ageContainer {
+  margin-top: 1vh;
+}
+
+.age {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  white-space: nowrap;
+  color: #bebec0;
+}
+
+.city {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  white-space: nowrap;
+  color: #bebec0;
+}
+
+.languageBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.5%;
+}
+
+.langContainer {
+  border: 1px solid #313036;
+  background-color: #191622;
+  border-radius: 16px;
+  padding: 2% 0% 0.1% 0%;
+  width: 120px;
+  height: 24px;
+}
+
+.language {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #bebec0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.bioContainer {
+  border: 1px solid #313036;
+  background-color: #191622;
+  margin-top: 1.5%;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 86%;
+  padding: 16px;
+}
+
+.bio {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #cacaca;
+  margin: 0;
+}
+
+.HobbiesBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.5%;
+}
+
+.HobbiesContainer {
+  border: 1px solid #403e4a;
+  background: linear-gradient(0deg, rgba(110, 68, 255, 0.24), rgba(110, 68, 255, 0.24));
+  border-radius: 16px;
+  padding: 1% 0% 1% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 24px;
+}
+
+.Hobbies {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #bebec0;
+  padding-left: 6%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.TabContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tabBox {
+  width: 100%;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+
+.tab {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.TabContentContainer {
+  margin-top: 0vh;
+}
+
+.innerTabConentContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.InnerTabContainer {
+  display: flex;
+  gap: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.InnerTabBox {
+  width: 100%;
+  border: 0.5px solid #333337;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.InnerTab {
+  color: #fcfcfc;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.joinedCommunitesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.joinedCommunitiesBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.communitesProfiePicContainer {
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: #bebec0;
+}
+
+.communitesProfiePic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.communitesNameContainer {
+  max-width: 45vw;
+}
+
+.communitesName {
+  color: #bebec0;
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.rightSection {
+  margin-left: auto;
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+.joinedButton {
+  background: #3a3744;
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 96px;
+  height: 26px;
+}
+
+.communitesMoreContainer {
+  max-width: 28px;
+  cursor: pointer;
+}
+
+.communitiesMore {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.leaveOverLay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.leaveContainer,
+.leaveContainerMore {
+  width: 363px;
+  max-height: 400px;
+  border-radius: 24px;
+  border: 1px solid #403e4a;
+  background: linear-gradient(0deg, #110e18, #110e18), linear-gradient(0deg, #403e4a, #403e4a);
+}
+
+.selectedCommunityBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.userImgContainer {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  margin-bottom: 8px;
+}
+
+.userImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.communityUserName {
+  max-width: 140px;
+}
+
+.communityUserNameText {
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.leaveConfirmTextContainer {
+  margin-top: 20px;
+}
+
+.leaveConfirmText {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.leaveButtonContainer {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.leaveButton {
+  background: #231b3d;
+  border: 1px solid #6e44ff;
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #efefef;
+  width: 100%;
+  height: 36px;
+  white-space: nowrap;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.communityUserNameMore {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.communityOptionNameMore {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #1f1b2a;
+  width: 100%;
+}
+
+.communityUserNameMoreText,
+.communityOptionNameMoreText {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  margin: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.moreOptionsTexts {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: red;
+  white-space: nowrap;
+  margin: 0;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* for mobile */
+@media screen and (max-width: 500px) {
+  .spContainer {
+    background: #110e18;
+    min-height: 100vh;
+    border-radius: 0px;
+  }
+
+  .InnerContainer {
+    padding: 8px 20px 24px 20px;
+  }
+
+  .spHeader {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .arrowIconContainer,
+  .moreIconContainer {
+    max-width: 24px;
+    cursor: pointer;
+  }
+
+  .moreIconContainer {
+    margin-left: auto;
+  }
+
+  .arrowIcon,
+  .moreIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .nameContainer {
+    max-width: 20vw;
+  }
+
+  .name {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fcfcfc;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .ProfileBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .profilePicContainer {
+    width: 64px;
+    height: 64px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #bebec0;
+  }
+
+  .profilePic {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .userNameContainer {
+    max-width: 50vw;
+    margin-top: 8px;
+  }
+
+  .userName {
+    margin: 0;
+    white-space: nowrap;
+    font-size: 0.938rem;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fcfcfcfc;
+  }
+
+  .ageContainer {
+    margin-top: 8px;
+  }
+
+  .age {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    white-space: nowrap;
+    color: #bebec0;
+  }
+
+  .city {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    white-space: nowrap;
+    color: #bebec0;
+  }
+
+  .languageBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 3%;
+  }
+
+  .langContainer {
+    border: 1px solid #313036;
+    background-color: #191622;
+    border-radius: 16px;
+    padding: 0% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 82px;
+    height: 32px;
+    margin: 0;
+  }
+
+  .language {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #bebec0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .bioContainer {
+    border: 1px solid #313036;
+    background-color: #191622;
+    margin-top: 3%;
+    border-radius: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
+    padding: 16px;
+  }
+
+  .bio {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #cacaca;
+    margin: 0;
+  }
+
+  .HobbiesBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 3%;
+  }
+
+  .HobbiesContainer {
+    border: 1px solid #403e4a;
+    background: linear-gradient(0deg, rgba(110, 68, 255, 0.24), rgba(110, 68, 255, 0.24));
+    border-radius: 16px;
+    padding: 0% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 32px;
+  }
+
+  .Hobbies {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #bebec0;
+    padding-left: 6%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .TabContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .tabBox {
+    width: 100%;
+    padding-bottom: 12px;
+    cursor: pointer;
+  }
+
+  .tab {
+    margin: 0;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+  }
+
+  .TabContentContainer {
+    margin-top: 0vh;
+  }
+
+  .innerTabConentContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .InnerTabContainer {
+    display: flex;
+    gap: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .InnerTabBox {
+    width: 100%;
+    border: 0.5px solid #333337;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .InnerTab {
+    color: #fcfcfc;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .joinedCommunitesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .joinedCommunitiesBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+  }
+
+  .communitesProfiePicContainer {
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #bebec0;
+  }
+
+  .communitesProfiePic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .communitesNameContainer {
+    max-width: 50vw;
+  }
+
+  .communitesName {
+    color: #bebec0;
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .rightSection {
+    margin-left: auto;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+  }
+
+  .joinedButton {
+    background: #3a3744;
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 80px;
+    height: 28px;
+  }
+
+  .communitesMoreContainer {
+    max-width: 28px;
+    cursor: pointer;
+  }
+
+  .communitiesMore {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .leaveOverLay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .leaveContainer,
+  .leaveContainerMore {
+    width: 323px;
+    max-height: 400px;
+    border-radius: 24px;
+    border: 1px solid #403e4a;
+    background: linear-gradient(0deg, #110e18, #110e18), linear-gradient(0deg, #403e4a, #403e4a);
+    padding: 20px;
+  }
+
+  .selectedCommunityBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .userImgContainer {
+    height: 32px;
+    width: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+
+  .userImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .communityUserName {
+    max-width: 140px;
+  }
+
+  .communityUserNameText {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .leaveConfirmTextContainer {
+    margin-top: 20px;
+  }
+
+  .leaveConfirmText {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+  }
+
+  .leaveButtonContainer {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .leaveButton {
+    background: #231b3d;
+    border: 1px solid #6e44ff;
+    font-size: 0.813rem;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #efefef;
+    width: 100%;
+    height: 36px;
+    white-space: nowrap;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .communityUserNameMore {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .communityOptionNameMore {
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+
+  .communityUserNameMoreText,
+  .communityOptionNameMoreText {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+    margin: 0;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .moreOptionsTexts {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: red;
+    white-space: nowrap;
+    margin: 0;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

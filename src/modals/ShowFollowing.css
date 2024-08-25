@@ -1,0 +1,429 @@
+.showFollowing-container,
+.d-showFollowing-container {
+  background: #fcfcfc;
+  min-height: 100vh;
+  border-radius: 16px;
+  padding-bottom: 20px;
+}
+
+.d-showFollowing-container {
+  background: #110e18;
+}
+
+.following-contains {
+  padding: 20px 20px 24px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.leftBackContainer {
+  max-width: 24px;
+}
+
+.leftBack {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.self-Name-container {
+  max-width: 20vw;
+}
+
+.self-Name,
+.d-self-Name {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+  color: #363636;
+}
+
+.d-self-Name {
+  color: #fcfcfc;
+}
+
+.followers-tab-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.followers-tab-box,
+.d-followers-tab-box {
+  width: 100%;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.d-followers-tab-box {
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.followersTab,
+.d-follwoersTab {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+  color: #363636;
+}
+
+.d-follwoersTab {
+  color: #fcfcfc;
+}
+
+.search-bar-follwing {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.follwing-profiles-containers {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+}
+
+.following-profiles-box {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.followingProfilebox {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1/1;
+  background: #bebec0;
+  border-radius: 50%;
+}
+
+.followingProfile {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.following-name-box {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.following-username-container {
+  max-width: 20vw;
+  cursor: pointer;
+}
+
+.following-name-container {
+  max-width: 20vw;
+  cursor: pointer;
+}
+
+.following-username,
+.d-following-username {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #363636;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.d-following-username {
+  color: #fcfcfc;
+}
+
+.following-name,
+.d-following-name {
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  color: #353434;
+}
+
+.d-following-name {
+  color: #bebec0;
+}
+
+.following-right-buttons {
+  margin-left: auto;
+}
+
+.d-followBack-btns {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  border: none;
+  background: #6e44ff;
+  border-radius: 8px;
+  border: none;
+  white-space: nowrap;
+  height: 28px;
+  width: 160px;
+  cursor: pointer;
+}
+
+.followRemove-btns,
+.d-followRemove-btns {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  border: none;
+  white-space: nowrap;
+  height: 28px;
+  width: 160px;
+  cursor: pointer;
+  background: #efecf8;
+  color: #6e44ff;
+}
+
+.d-followRemove-btns {
+  color: #bebec0;
+  background: #241e39;
+}
+
+@media screen and (max-width: 500px) {
+  .showFollowing-container,
+  .d-showFollowing-container {
+    background: #fcfcfc;
+    min-height: 100vh;
+    border-radius: 16px;
+  }
+
+  .d-showFollowing-container {
+    background: #110e18;
+  }
+
+  .following-contains {
+    padding: 20px 20px 12px 20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .leftBackContainer {
+    max-width: 24px;
+  }
+
+  .leftBack {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .self-Name-container {
+    max-width: 70%;
+  }
+
+  .self-Name,
+  .d-self-Name {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    color: #363636;
+  }
+
+  .d-self-Name {
+    color: #fcfcfc;
+  }
+
+  .followers-tab-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .followers-tab-box,
+  .d-followers-tab-box {
+    width: 100%;
+    padding-bottom: 4px;
+    cursor: pointer;
+  }
+
+  .d-followers-tab-box {
+    padding-bottom: 4px;
+    cursor: pointer;
+  }
+
+  .followersTab,
+  .d-follwoersTab {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+    color: #363636;
+  }
+
+  .d-follwoersTab {
+    color: #fcfcfc;
+  }
+
+  .search-bar-follwing {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .follwing-profiles-containers {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+
+  .following-profiles-box {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .followingProfilebox {
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1/1;
+  }
+
+  .followingProfile {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #bebec0;
+  }
+
+  .following-name-box {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+  }
+
+  .following-username-container {
+    max-width: 45vw;
+    cursor: pointer;
+  }
+
+  .following-name-container {
+    max-width: 45vw;
+    cursor: pointer;
+  }
+
+  .following-username,
+  .d-following-username {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363636;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .d-following-username {
+    color: #fcfcfc;
+  }
+
+  .following-name,
+  .d-following-name {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    color: #353434;
+  }
+
+  .d-following-name {
+    color: #bebec0;
+  }
+
+  .following-right-buttons {
+    margin-left: auto;
+  }
+
+  .d-followBack-btns {
+    font-size: 0.813rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+    border: none;
+    background: #6e44ff;
+    border-radius: 8px;
+    border: none;
+    white-space: nowrap;
+    height: 28px;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .followRemove-btns,
+  .d-followRemove-btns {
+    font-size: 0.813rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    border: none;
+    white-space: nowrap;
+    height: 28px;
+    width: 100px;
+    cursor: pointer;
+    background: #efecf8;
+    color: #6e44ff;
+  }
+
+  .d-followRemove-btns {
+    color: #bebec0;
+    background: #241e39;
+  }
+}

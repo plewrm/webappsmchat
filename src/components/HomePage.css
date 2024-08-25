@@ -1,0 +1,198 @@
+.addpost-grid,
+.d-addpost-grid {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  /* max-height: 20.733vh; */
+}
+
+.mobileMargin {
+}
+
+.webMargin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page-box-outer_mobile {
+  width: 100%;
+}
+
+.home-page-box-outer {
+  width: 80vw;
+  max-width: 1200px;
+}
+
+.home-page-box {
+  /* margin: 0% 12% 0% 12%; */
+  /* padding: 0% 12% 0% 12%; */
+  /* max-width: 1300px; */
+  padding-top: 1%;
+}
+
+@media screen and (max-width: 500px) {
+  .home-page-box {
+    margin: 0%;
+    padding-top: 0%;
+  }
+}
+
+/* custom-toast.css */
+
+/* Styles for the main toast container */
+.custom-toast-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 20rem;
+  /* Adjust the maximum width as needed */
+  width: 21.875rem;
+  height: auto;
+  /* background-color: #191622; */
+  background: #211b37;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  pointer-events: auto;
+  display: flex;
+  border: 1px solid #000000;
+  opacity: 0.95;
+}
+
+/* Styles for the inner content of the toast */
+.custom-toast-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.items-start {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+/* Styles for the avatar or icon if needed */
+.custom-toast-avatar img {
+  /* Add styles for the avatar or icon */
+  /* width: 2vw; */
+  width: 44px;
+  height: 44px;
+  top: 18px;
+  left: 24px;
+  border: 1px solid #6e44ff;
+  border-radius: 50%;
+}
+
+/* Styles for the text message */
+.custom-toast-message {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fcfcfc;
+}
+
+/* Styles for the close button */
+.custom-toast-close-button {
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  background: #211b37;
+  color: #0066cc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.custom-toast-close-button:hover {
+  color: #0052a3;
+}
+
+.noInternetContainer,
+.d-noInternetContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background-color: rgba(29, 27, 35, 0.8);
+}
+
+.d-noInternetContainer {
+  background-color: rgba(17, 14, 24, 0.8);
+}
+
+.noInternetBox,
+.d-noInternetBox {
+  border-radius: 20px;
+  background: #fcfcfc;
+  border: 1px solid rgb(211, 211, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 480px;
+  height: 320px;
+  padding: 20px;
+}
+
+.d-noInternetBox {
+  border: 1px solid #403e4a;
+  background: linear-gradient(0deg, #110e18, #110e18), linear-gradient(0deg, #403e4a, #403e4a);
+}
+
+.noInternetImgContainer {
+  height: 120px;
+  width: 120px;
+}
+
+.noInternetImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.networkErrorContainer {
+  margin-top: 12px;
+}
+
+.networkError,
+.d-networkError {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  color: #363636;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.d-networkError {
+  color: #fcfcfc;
+}
+
+.networkErrorInfoContainer {
+  margin-top: 12px;
+}
+
+.networkErrorInfo,
+.d-networkErrorInfo {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #363636;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.d-networkErrorInfo {
+  color: #fcfcfc;
+}

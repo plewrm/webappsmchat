@@ -1,0 +1,231 @@
+.DiscoverComponent {
+  width: 11vw;
+  max-height: 30vh;
+  background: linear-gradient(0deg, #201c2b, #201c2b);
+  border: 2px solid #403e4a;
+  border-radius: 18px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 90%;
+}
+
+.imgContainer {
+  position: absolute;
+  max-width: 76px;
+  height: 76px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  top: -15%;
+  /* Adjusted to center at the top border */
+  left: 50%;
+  /* Adjusted to center horizontally */
+  transform: translateX(-50%);
+  /* Center horizontally using transform */
+  border: 2px solid #663fe8;
+}
+
+.imgContainer img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.body {
+  /* margin-top: 6vh; */
+  text-align: center;
+}
+
+.name {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgba(252, 252, 252, 1);
+}
+
+.membersInfo {
+  margin-top: 1vh;
+  color: rgba(217, 217, 217, 1);
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  margin-top: 2vh;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* Limit to two lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: rgba(190, 190, 192, 1);
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.btn {
+  margin-top: 2vh;
+  width: 100%;
+  padding: 5% 0% 5% 0%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(110, 68, 255, 1);
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgba(252, 252, 252, 1);
+  margin-bottom: 5%;
+}
+
+.hsCardContainer {
+  height: 210px;
+  width: 100%;
+  overflow-y: hidden;
+  margin-left: 2%;
+  margin-bottom: 10%;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.hsCardBox {
+  height: 180px;
+  width: 140px;
+  margin-top: 28px;
+}
+
+.hsCardBoxInner {
+  height: 100%;
+  border-radius: 12px;
+  background: #201c2b;
+  border: 1px solid #403e4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 25%;
+  box-sizing: border-box;
+}
+
+.cardProfileContainer {
+  height: 56px;
+  width: 56px;
+  aspect-ratio: 1/1;
+  margin-top: -25px;
+  border-radius: 50%;
+  background: #bebec0;
+}
+
+.cardProfile {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardNameContainer {
+  max-width: 120px;
+  margin-top: 10px;
+}
+
+.cardName {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.followerCountContainer {
+  display: flex;
+  margin-top: 5px;
+  gap: 5px;
+  align-items: center;
+}
+
+.profileIconContainer {
+  width: 16px;
+}
+
+.profileIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.followerNumber {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #d9d9d9;
+  white-space: nowrap;
+}
+
+.cardBioContainer {
+  max-width: 130px;
+  margin-top: 3px;
+  height: 45px;
+}
+
+.cardBio {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #bebec0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cardJoinButton {
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  white-space: nowrap;
+  border-radius: 12px;
+  border: 1px solid #6e44ff;
+  background: #6e44ff;
+  width: 124px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.cardJoinedButton {
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  white-space: nowrap;
+  border-radius: 12px;
+  border: 1px solid #6e44ff;
+  background: #302455;
+  width: 124px;
+  height: 28px;
+  cursor: pointer;
+}

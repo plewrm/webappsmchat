@@ -1,0 +1,91 @@
+/* .post-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  background-color: #fff;
+  max-width: 300px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-id {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.post-hash {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+
+.post-content {
+  margin: 12px 0;
+}
+
+.post-fields {
+  margin: 12px 0;
+}
+
+.post-field {
+  font-size: 14px;
+}
+
+.field-name {
+  font-weight: bold;
+}
+
+.post-url {
+  color: #1a0dab;
+}
+
+.post-link-container {
+  text-decoration: none;
+  color: inherit;
+}
+
+.end2 {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.postCardUsernameContainer {
+}
+
+.postCardUsername {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #fcfcfc;
+  margin: 0;
+}
+
+.postCardCaptionContainer {
+}
+
+.postCardCaption {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #fcfcfc;
+  margin: 0;
+}

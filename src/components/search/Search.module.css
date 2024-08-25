@@ -1,0 +1,495 @@
+.msgContainer,
+.d-msgContainer {
+  background: #fcfcfc;
+  height: 100vh;
+  border-radius: 16px;
+  overflow-y: auto;
+}
+
+.d-msgContainer {
+  background: #110e18;
+}
+
+.msgContainer::-webkit-scrollbar {
+  width: 8px;
+  margin-top: 10px;
+}
+
+.msgContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #fcfcfc;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.msgContainer::-webkit-scrollbar-thumb {
+  background: #dcdcdc;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.msgContainer::-webkit-scrollbar-thumb:hover {
+  background: #dcdcdc;
+}
+
+.d-msgContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.d-msgContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #201c2b;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.d-msgContainer::-webkit-scrollbar-thumb {
+  background: #35323e;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.d-msgContainer::-webkit-scrollbar-thumb:hover {
+  background: #35323e;
+}
+
+.msgHeader {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+}
+
+.headerContainer {
+  max-width: 20vw;
+}
+
+.header,
+.d-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+  color: #363636;
+}
+
+.d-header {
+  color: #fcfcfc;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.searchContainers {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.backContainer {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.back {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.searchBar,
+.d-searchBar {
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  padding: 8px 12px 8px 12px;
+  background: #f2f2f2;
+}
+
+.d-searchBar {
+  border: 1px solid #333337;
+  background: #1a1623;
+}
+
+.searchIconContainer {
+  width: 20px;
+  height: 20px;
+}
+
+.searchIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.inputSearch,
+.d-inputSearch {
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  flex: 1;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bebec0;
+  border-radius: 12px;
+  padding-left: 12px;
+}
+
+.d-inputSearch {
+  background: #1a1623;
+  color: #bebec0;
+}
+
+.recentContainer {
+  max-width: 20vw;
+}
+
+.recentText,
+.d-recentText {
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #363636;
+  white-space: nowrap;
+}
+
+.d-recentText {
+  color: #fcfcfc;
+}
+
+.sideGap {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.modalCloseContainer {
+  width: 24px;
+  cursor: pointer;
+}
+
+.modalClose {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.searchPeopleContainer {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.searchPeopleBox {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.searchProfilesContainer {
+  width: 52px;
+  height: 52px;
+  aspect-ratio: 1/1;
+  background: #bebec0;
+  border-radius: 50%;
+}
+
+.searchProfile {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.searchNameContainer {
+  max-width: 70%;
+}
+
+.searchName,
+.d-searchName {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #363636;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.d-searchName {
+  color: #bebec0;
+}
+
+.cancelSearchContainer {
+  cursor: pointer;
+  max-width: 24px;
+  margin-left: auto;
+}
+
+.cancelSearch {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/*skeleton css Start*/
+.custom-skeleton {
+  display: flex;
+  align-items: center;
+}
+
+.custom-skeleton .ant-skeleton-avatar {
+  margin-right: 16px; /* Adjust the spacing between avatar and text as needed */
+  margin-left: -3px;
+}
+
+.custom-skeleton .ant-skeleton-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.custom-skeleton .ant-skeleton-paragraph > li {
+  margin-bottom: 0px; /* Adjust as needed */
+}
+
+.custom-skeleton .ant-skeleton-paragraph > li:last-child {
+  margin-bottom: 0; /* Ensure no extra space at the end */
+}
+
+.custom-skeleton .ant-skeleton-paragraph.red > li {
+  background: #f2f2f2;
+}
+
+.custom-skeleton .ant-skeleton-paragraph.yellow > li {
+  background: #e1e1e11a;
+}
+
+/* skeleton css end */
+/* for mobile */
+@media screen and (max-width: 500px) {
+  .msgContainer,
+  .d-msgContainer {
+    background: #fcfcfc;
+    height: 100vh;
+    border-radius: 0px;
+    overflow-y: auto;
+    width: 100vw;
+  }
+
+  .d-msgContainer {
+    background: #110e18;
+  }
+
+  .msgHeader {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .headerContainer {
+    max-width: 25vw;
+  }
+
+  .header,
+  .d-header {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    white-space: nowrap;
+    color: #363636;
+  }
+
+  .d-header {
+    color: #fcfcfc;
+  }
+
+  .right {
+    margin-left: auto;
+  }
+
+  .searchContainers {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .backContainer {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .back {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+  }
+
+  .searchBar,
+  .d-searchBar {
+    display: flex;
+    width: 100%;
+    border-radius: 12px;
+    padding: 8px 10px 8px 10px;
+    background: #f2f2f2;
+  }
+
+  .d-searchBar {
+    border: 1px solid #333337;
+    background: #1a1623;
+  }
+
+  .searchIconContainer {
+    width: 20px;
+    height: 20px;
+  }
+
+  .searchIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .inputSearch,
+  .d-inputSearch {
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    flex: 1;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #bebec0;
+    border-radius: 12px;
+    padding-left: 12px;
+  }
+
+  .d-inputSearch {
+    background: #1a1623;
+    color: #bebec0;
+  }
+
+  .recentContainer {
+    max-width: 20vw;
+  }
+
+  .recentText,
+  .d-recentText {
+    font-size: 0.938rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363636;
+    white-space: nowrap;
+  }
+
+  .d-recentText {
+    color: #fcfcfc;
+  }
+
+  .searchPeopleContainer {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .searchPeopleBox {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .searchProfilesContainer {
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1/1;
+    background: #bebec0;
+    border-radius: 50%;
+  }
+
+  .searchProfile {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .searchNameContainer {
+    max-width: 70%;
+  }
+
+  .searchName,
+  .d-searchName {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363636;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .d-searchName {
+    color: #bebec0;
+  }
+
+  .cancelSearchContainer {
+    cursor: pointer;
+    width: 20px;
+    margin-left: auto;
+  }
+
+  .cancelSearch {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  /* Skeleton CSS Start */
+  .custom-skeleton {
+    display: flex;
+    align-items: center;
+  }
+
+  .custom-skeleton .ant-skeleton-avatar {
+    margin-right: 16px; /* Adjust the spacing between avatar and text as needed */
+  }
+
+  .custom-skeleton .ant-skeleton-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .custom-skeleton .ant-skeleton-paragraph > li {
+    margin-bottom: 0px; /* Adjust as needed */
+  }
+
+  .custom-skeleton .ant-skeleton-paragraph > li:last-child {
+    margin-bottom: 0; /* Ensure no extra space at the end */
+  }
+  /* Skeleton CSS End */
+}

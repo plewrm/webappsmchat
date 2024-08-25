@@ -1,0 +1,209 @@
+.msgContainer,
+.d-msgContainer {
+  background: #fcfcfc;
+  min-height: 100vh;
+  border-radius: 16px;
+  padding: 16px 20px 16px 20px;
+}
+
+.d-msgContainer {
+  background: #110e18;
+}
+
+.msgHeader {
+  display: flex;
+  align-items: center;
+}
+
+.headerContainer {
+  max-width: 20vw;
+}
+
+.header,
+.d-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+  color: #363636;
+}
+
+.d-header {
+  color: #fcfcfc;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.searchContainers {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.backContainer {
+  max-width: 24px;
+}
+
+.back {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.searchBar,
+.d-searchBar {
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  padding: 8px 12px 8px 12px;
+  background: #f2f2f2;
+}
+
+.d-searchBar {
+  border: 1px solid #333337;
+  background: #1a1623;
+}
+
+.searchIconContainer {
+  max-width: 20px;
+}
+
+.searchIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.inputSearch,
+.d-inputSearch {
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  flex: 1;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bebec0;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+
+.d-inputSearch {
+  background: #1a1623;
+  color: #bebec0;
+}
+
+.InnerTabContainer,
+.d-InnerTabContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.d-InnerTabContainer {
+  background: #191622;
+}
+
+.InnerTabBox {
+  width: 100%;
+  border: 0.5px solid #333337;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  margin: 6px 8px 6px 8px;
+}
+
+.InnerTab,
+.d-InnerTab {
+  color: #363636;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.d-InnerTab {
+  color: #fcfcfc;
+}
+
+.chatTitleContainer {
+  max-width: 20vw;
+  margin-top: 20px;
+}
+
+.chatTitle,
+.d-chatTitle {
+  font-size: 0.938rem;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  white-space: nowrap;
+  color: #363636;
+}
+
+.d-chatTitle {
+  color: #fcfcfc;
+}
+
+.ChatContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.ChatBox {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.profileContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  background: #bebec0;
+}
+
+.profile {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nameContainer {
+  max-width: 20vw;
+}
+
+.name,
+.d-name {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #363636;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.d-name {
+  color: #bebec0;
+}

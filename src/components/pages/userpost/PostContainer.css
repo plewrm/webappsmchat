@@ -1,0 +1,253 @@
+.upload-post-container {
+  padding: 0% 0% 0% 0%;
+  min-height: 90vh;
+}
+
+.post-boxes,
+.d-post-boxes {
+  padding-top: 23px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.d-post-boxes {
+  border-bottom: 1px solid #403e4a;
+}
+
+.noborder {
+  padding-top: 23px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.comments-outer-container,
+.d-comments-outer-container {
+  width: 100%;
+  background: #fcfcfc;
+  height: auto;
+  border-radius: 16px;
+}
+
+.d-comments-outer-container {
+  background: #110e18;
+}
+
+.close-comment-modal-container {
+  max-width: 24px;
+  cursor: pointer;
+}
+
+.close-comment-modal {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.mentionPeopleContainer,
+.d-mentionPeopleContainer {
+  border-radius: 12px;
+  height: 50vh;
+  padding: 5% 5% 0% 5%;
+  width: 350px;
+  background: #fcfcfc;
+  border: 0.5px solid rgb(198, 197, 197);
+  overflow-y: auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.d-mentionPeopleContainer {
+  background: #110e18;
+  border: 0.5px solid #403e4a;
+}
+
+.mentionBox {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mentionProfileContianer {
+  height: 32px;
+  width: 32px;
+  aspect-ratio: 1/1;
+}
+
+.mentionProfile {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mentionColumn {
+  display: flex;
+  gap: 0.5vh;
+  flex-direction: column;
+}
+
+.mentionUsernameContainer,
+.mentionNameContainer {
+  max-width: 260px;
+}
+
+.mentionUsername,
+.d-mentionUsername {
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #363636;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.d-mentionUsername {
+  color: #fcfcfc;
+}
+
+.mentionName,
+.d-mentionName {
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #363636;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.d-mentionName {
+  color: #bebec0;
+}
+
+/* for mobile */
+@media screen and (max-width: 500px) {
+  .upload-post-container {
+    padding: 0% 0% 0% 0%;
+  }
+
+  .post-boxes,
+  .d-post-boxes {
+    padding-top: 23px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 00px;
+    border-bottom: 0.5px solid #bebec0;
+  }
+
+  .d-post-boxes {
+    border-bottom: 0.5px solid #403e4a;
+  }
+
+  .comments-outer-container,
+  .d-comments-outer-container {
+    width: 100%;
+    background: #fcfcfc;
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .d-comments-outer-container {
+    background: #110e18;
+  }
+
+  .close-comment-modal-container {
+    max-width: 24px;
+    cursor: pointer;
+  }
+
+  .close-comment-modal {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .mentionPeopleContainer,
+  .d-mentionPeopleContainer {
+    border-radius: 12px;
+    height: 50vh;
+    padding: 5% 5% 0% 5%;
+    width: 350px;
+    background: #fcfcfc;
+    border: 0.5px solid rgb(198, 197, 197);
+    overflow-y: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .d-mentionPeopleContainer {
+    background: #110e18;
+    border: 0.5px solid #403e4a;
+  }
+
+  .mentionBox {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .mentionProfileContianer {
+    height: 32px;
+    width: 32px;
+    aspect-ratio: 1/1;
+  }
+
+  .mentionProfile {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .mentionColumn {
+    display: flex;
+    gap: 0.5vh;
+    flex-direction: column;
+  }
+
+  .mentionUsernameContainer,
+  .mentionNameContainer {
+    max-width: 260px;
+  }
+
+  .mentionUsername,
+  .d-mentionUsername {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363636;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .d-mentionUsername {
+    color: #fcfcfc;
+  }
+
+  .mentionName,
+  .d-mentionName {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #363636;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .d-mentionName {
+    color: #bebec0;
+  }
+}

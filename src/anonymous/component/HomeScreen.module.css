@@ -1,0 +1,1038 @@
+.hsComponent {
+  background: #110e18;
+  width: 100%;
+  min-height: 100vh;
+  border-radius: 16px;
+}
+
+.hsHeaderTitleContainer {
+  max-width: 15vw;
+  padding: 24px 0% 0% 20px;
+}
+
+.hsHeaderTitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fcfcfc;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.hsCardContainer {
+  height: 210px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 2vh;
+  display: flex;
+  gap: 15px;
+}
+
+.hsCardContainer::-webkit-scrollbar {
+  height: 7px;
+}
+
+.hsCardContainer::-webkit-scrollbar-track {
+  background: #110e18;
+  border-radius: 50px;
+}
+
+.hsCardContainer::-webkit-scrollbar-thumb {
+  background: #35323e;
+  border-radius: 50px;
+}
+
+.hsCardContainer::-webkit-scrollbar-thumb:hover {
+  background: #35323e;
+}
+
+.hsCardBox {
+  height: 180px;
+  width: 140px;
+  margin-top: 28px;
+}
+
+.hsCardBoxInner {
+  height: 100%;
+  border-radius: 12px;
+  background: #201c2b;
+  border: 1px solid #403e4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.joinedBtn {
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  white-space: nowrap;
+  background: #241e39;
+  width: 124px;
+  height: 28px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.cardProfileContainer {
+  height: 56px;
+  width: 56px;
+  aspect-ratio: 1/1;
+  margin-top: -25px;
+  border-radius: 50%;
+  background: #bebec0;
+  cursor: pointer;
+}
+
+.cardProfile {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardNameContainer {
+  max-width: 120px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cardName {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.followerCountContainer {
+  display: flex;
+  margin-top: 5px;
+  gap: 5px;
+  align-items: center;
+}
+
+.profileIconContainer {
+  width: 16px;
+}
+
+.profileIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.followerNumber {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #d9d9d9;
+  white-space: nowrap;
+}
+
+.cardBioContainer {
+  max-width: 130px;
+  margin-top: 4px;
+  height: 47px;
+}
+
+.cardBio {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #bebec0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cardJoinButton {
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcfcfc;
+  white-space: nowrap;
+  background: #6e44ff;
+  width: 124px;
+  height: 28px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.communityPostContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.communityPostBox {
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 2%;
+  /* background: #201c2b; */
+  border-bottom: 1px solid #353535;
+}
+
+.communityHeader {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 12px;
+  align-items: center;
+}
+
+.postProfileContainer {
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: #bebec0;
+}
+
+.postProfile {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.postNameContainer {
+  max-width: 15vw;
+}
+
+.postName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #fcfcfc;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.communityNameFlex {
+  display: flex;
+  align-items: center;
+}
+
+.postUsernameContainer {
+  max-width: 20vw;
+}
+
+.postUsername {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 4px 0 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  color: #bebec0;
+  cursor: pointer;
+}
+
+.postTimeStamp {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 0 6px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  color: #999999;
+}
+
+.postNameColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.postRightContainer {
+  margin-left: auto;
+  gap: 0.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.pollIconContainer {
+  max-width: 20px;
+}
+
+.pollIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.moreIconContainer {
+  max-width: 28px;
+  cursor: pointer;
+}
+
+.moreIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.postTextContainer {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.postText {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fcfcfc;
+  margin: 0;
+}
+
+.postActionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 2vh;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.postIconContainer {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.postIconSaveContainer {
+  margin-left: auto;
+}
+
+.postIconbox {
+  max-width: 28px;
+}
+
+.postIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.postActionCountContainer {
+  max-width: 3vw;
+}
+
+.postActionCount {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #bebec0;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.poll {
+  width: 96%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin: 2% auto;
+}
+
+.option {
+  margin-bottom: 1vh;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.barContainer {
+  border: 1px solid #403e4a;
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bar1 {
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 12px;
+  padding-left: 2%;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* .withBackground {
+  background: #59c045;
+  background: #3D6E38;
+
+} */
+
+.userVoted {
+  background: #59c045; /* Background color when the user has voted for this option */
+}
+
+.otherVoted {
+  background: #3d6e38; /* Background color when someone else has voted for this option */
+}
+
+.bar2 {
+  background: #ffb02e;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 12px;
+  padding-left: 2%;
+}
+
+.optionPercentage {
+  margin-left: auto;
+  color: #fcfcfc;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.postPhotoContainer {
+  width: 96%;
+  padding-left: 2%;
+  /* margin-top: 2vh; */
+  padding-bottom: 3%;
+  padding-right: 2%;
+}
+
+.mainPostImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.moreOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: rgba(17, 14, 24, 0.8);
+}
+
+.moreContent {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 12px;
+  border: 1px solid #403e4a;
+  background: #201c2b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.optionsBox {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.moreText,
+.deletesText {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+  color: #fcfcfc;
+}
+
+.deletesText {
+  color: red;
+}
+
+.DeleteNotifyContainer {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.deleteNotify {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+  color: #fcfcfc;
+}
+
+.notifyButtonContainers {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.notifyButton {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 12px;
+  width: 100%;
+  padding: 2% 0% 2% 0%;
+  cursor: pointer;
+  border: 1px solid #6e44ff;
+  background: linear-gradient(0deg, #231b3d, #231b3d), linear-gradient(0deg, #6e44ff, #6e44ff);
+  color: #efefef;
+}
+
+.notifyButtonCancel {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 12px;
+  width: 100%;
+  padding: 2% 0% 2% 0%;
+  cursor: pointer;
+  background: #6e44ff;
+  color: #efefef;
+  border: none;
+}
+
+/* for mobile */
+@media screen and (max-width: 500px) {
+  .hsComponent {
+    background: #110e18;
+    width: 100%;
+    min-height: 100vh;
+    border-radius: 0px;
+  }
+
+  .hsHeaderTitleContainer {
+    max-width: 15vw;
+    padding: 24px 0% 0% 20px;
+  }
+
+  .hsHeaderTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fcfcfc;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .hsCardContainer {
+    height: 210px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 2vh;
+    display: flex;
+    gap: 15px;
+  }
+
+  .hsCardContainer::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  .hsCardContainer::-webkit-scrollbar-track {
+    background: #110e18;
+    border-radius: 50px;
+  }
+
+  .hsCardContainer::-webkit-scrollbar-thumb {
+    background: #35323e;
+    border-radius: 50px;
+  }
+
+  .hsCardContainer::-webkit-scrollbar-thumb:hover {
+    background: #35323e;
+  }
+
+  .hsCardBox {
+    height: 180px;
+    width: 140px;
+    margin-top: 28px;
+  }
+
+  .hsCardBoxInner {
+    height: 100%;
+    border-radius: 12px;
+    background: #201c2b;
+    border: 1px solid #403e4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardProfileContainer {
+    height: 56px;
+    width: 56px;
+    aspect-ratio: 1/1;
+    margin-top: -25px;
+    border-radius: 50%;
+    background: #bebec0;
+    cursor: pointer;
+  }
+
+  .cardProfile {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .cardNameContainer {
+    max-width: 120px;
+    margin-top: 10px;
+  }
+
+  .cardName {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+  }
+
+  .followerCountContainer {
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .profileIconContainer {
+    width: 16px;
+  }
+
+  .profileIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .followerNumber {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #d9d9d9;
+    white-space: nowrap;
+  }
+
+  .cardBioContainer {
+    max-width: 130px;
+    margin-top: 4px;
+    height: 47px;
+  }
+
+  .cardBio {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #bebec0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .cardJoinButton {
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 0.813rem;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+    white-space: nowrap;
+    background: #6e44ff;
+    width: 124px;
+    height: 28px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .communityPostContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .communityPostBox {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    /* background: #201c2b; */
+    border-bottom: 1px solid #353535;
+  }
+
+  .communityHeader {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 12px;
+  }
+
+  .postProfileContainer {
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #bebec0;
+  }
+
+  .postProfile {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+
+  .postNameContainer {
+    max-width: 25vw;
+  }
+
+  .postName {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    color: #fcfcfc;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .postUsernameContainer {
+    max-width: 40vw;
+  }
+
+  .postUsername {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    color: #bebec0;
+  }
+
+  .postNameColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .postRightContainer {
+    margin-left: auto;
+    gap: 0.5vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .pollIconContainer {
+    max-width: 20px;
+  }
+
+  .pollIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .moreIconContainer {
+    max-width: 28px;
+  }
+
+  .moreIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .postTextContainer {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+  }
+
+  .postText {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fcfcfc;
+    margin: 0;
+  }
+
+  .postActionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 2vh;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .postIconContainer {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+  }
+
+  .postIconSaveContainer {
+    margin-left: auto;
+  }
+
+  .postIconbox {
+    max-width: 28px;
+  }
+
+  .postIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .postActionCountContainer {
+    max-width: 3vw;
+  }
+
+  .postActionCount {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #bebec0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .poll {
+    width: 96%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin: 2% auto;
+  }
+
+  .option {
+    margin-bottom: 1vh;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+  }
+
+  .barContainer {
+    border: 1px solid #403e4a;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .bar1 {
+    background: #59c045;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding-left: 2%;
+  }
+
+  .bar2 {
+    background: #ffb02e;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding-left: 2%;
+  }
+
+  .optionPercentage {
+    margin-left: auto;
+    color: #fcfcfc;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .postPhotoContainer {
+    width: 96%;
+    padding-left: 2%;
+    margin-top: 2vh;
+    padding-bottom: 2%;
+    padding-right: 2%;
+  }
+
+  .mainPostImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .moreOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .moreContent {
+    position: relative;
+    width: 20%;
+    max-height: 20vh;
+    border-radius: 20px;
+    border: 1px solid #403e4a;
+    background: #201c2b;
+    padding: 1%;
+  }
+
+  .optionsBox {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .moreText,
+  .deletesText {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+    color: #fcfcfc;
+  }
+
+  .deletesText {
+    color: red;
+  }
+
+  .DeleteNotifyContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .deleteNotify {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    color: #fcfcfc;
+  }
+
+  .notifyButtonContainers {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .notifyButton {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 12px;
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    cursor: pointer;
+    border: 1px solid #6e44ff;
+    background: linear-gradient(0deg, #231b3d, #231b3d), linear-gradient(0deg, #6e44ff, #6e44ff);
+    color: #efefef;
+  }
+}

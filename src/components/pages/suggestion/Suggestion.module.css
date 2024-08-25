@@ -1,0 +1,147 @@
+.suggestionContainer,
+.d-suggestionContainer {
+  border-radius: 16px;
+  background-color: #fcfcfc;
+  padding: 16px 20px 16px 20px;
+}
+
+.d-suggestionContainer {
+  background: #110e18;
+}
+
+.suggestionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleLeftContainer {
+  max-width: 70%;
+}
+
+.titleLeft,
+.d-titleLeft {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #363636;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.d-titleLeft {
+  color: #fcfcfc;
+}
+
+.titleRightContainer {
+  max-width: 30%;
+  cursor: pointer;
+}
+
+.titleRight {
+  color: #6e44ff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.suggestionPeopleContainer {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.suggestionBox {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.peopleImgContainer {
+  height: 52px;
+  width: 52px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: #bebec0;
+}
+
+.peopleImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.peopleInfoContainer {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.peopleNameContainer {
+  max-width: 8vw;
+}
+
+.peopleName,
+.d-peopleName {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin: 0;
+  color: #363636;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.d-peopleName {
+  color: #fcfcfc;
+}
+
+.peopleUserNameContainer {
+  max-width: 6vw;
+}
+
+.peopleUserName,
+.d-peopleUserName {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #363636;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.d-peopleUserName {
+  color: #e4e4e4;
+}
+
+.actionButton,
+.d-actionButton {
+  margin-left: auto;
+  width: 120px;
+  height: 32px;
+  border-radius: 12px;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.d-actionButton {
+  border: 1px solid #6e44ff;
+  background: #231b3d;
+  color: #efefef;
+}

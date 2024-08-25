@@ -1,0 +1,310 @@
+.ChatComponent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 0.5vh;
+  border-bottom: 0.5px solid #232d31;
+  cursor: pointer;
+}
+
+.left {
+  width: 52px;
+  aspect-ratio: 1/1;
+}
+
+.left img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vh;
+}
+
+.right_0 {
+  display: flex;
+  align-items: center;
+  gap: 0.3vw;
+}
+
+.right_0 span {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(252, 252, 252, 1);
+}
+
+.right_1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ChatOverview {
+  display: flex;
+  align-items: center;
+  gap: 0.3vw;
+}
+
+.ChatOverview span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(252, 252, 252, 1);
+}
+
+.ChatIndication span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 12px;
+  color: rgba(248, 248, 248, 1);
+  background-color: rgba(102, 63, 232, 1);
+  height: 2.5vh;
+  width: 1.25vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerColumn {
+  display: flex;
+  gap: 1vh;
+  flex-direction: column;
+}
+
+.center_01 {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.nameContainer {
+  max-width: 20px;
+}
+
+.name {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fcfcfc;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.pinContainer {
+  max-width: 16px;
+}
+
+.pin {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.indicationContainer {
+  margin-left: auto;
+  max-width: 24px;
+}
+
+.indication {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.downColumn {
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.msgInfoContainer {
+  max-width: 25vw;
+}
+
+.msgInfo {
+  font-size: 0.875;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #c7c7c7;
+}
+
+.Time {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  margin: 0;
+  color: #c7c7c7;
+}
+
+/* for mobile */
+@media screen and (max-width: 500px) {
+  .ChatComponent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 0.5vh;
+    border-bottom: 0.5px solid #232d31;
+    cursor: pointer;
+  }
+
+  .left {
+    width: 52px;
+    aspect-ratio: 1/1;
+  }
+
+  .left img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5vh;
+  }
+
+  .right_0 {
+    display: flex;
+    align-items: center;
+    gap: 0.3vw;
+  }
+
+  .right_0 span {
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(252, 252, 252, 1);
+  }
+
+  .right_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ChatOverview {
+    display: flex;
+    align-items: center;
+    gap: 0.3vw;
+  }
+
+  .ChatOverview span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(252, 252, 252, 1);
+  }
+
+  .ChatIndication span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgba(248, 248, 248, 1);
+    background-color: rgba(102, 63, 232, 1);
+    height: 2.5vh;
+    width: 1.25vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centerColumn {
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+  }
+
+  .center_01 {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+  }
+
+  .nameContainer {
+    max-width: 20px;
+  }
+
+  .name {
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fcfcfc;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .pinContainer {
+    max-width: 16px;
+  }
+
+  .pin {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .indicationContainer {
+    margin-left: auto;
+    max-width: 24px;
+  }
+
+  .indication {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .downColumn {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+  }
+
+  .msgInfoContainer {
+    max-width: 25vw;
+  }
+
+  .msgInfo {
+    font-size: 0.875;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    color: #c7c7c7;
+  }
+
+  .Time {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    margin: 0;
+    color: #c7c7c7;
+  }
+}

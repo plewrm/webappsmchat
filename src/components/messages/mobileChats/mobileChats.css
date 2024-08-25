@@ -1,0 +1,69 @@
+.mobile-chat-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-chat-inner-container {
+  width: 90vw;
+  height: 96vh;
+}
+.mobile-chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+}
+.mobile-chat-header-left {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.mobile-chat-name {
+  color: rgba(190, 190, 192, 1);
+}
+.mobile-chat-header-right {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.mobile-chat-profile {
+  width: 7vw;
+  height: 3.5vh;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #6e44ff;
+}
+
+/* 
+    chat box styling
+*/
+.mobile-chat-footer {
+  background-color: rgba(20, 18, 29, 1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-chat-typer {
+  background-color: rgba(32, 28, 43, 1);
+  width: 90%;
+  height: 5vh;
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.mobile-chat-input {
+  width: 55vw;
+  border: none;
+  color: rgba(190, 190, 192, 1);
+  background: rgba(32, 28, 43, 1);
+}

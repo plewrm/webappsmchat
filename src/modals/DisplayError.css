@@ -1,0 +1,106 @@
+.displayError,
+.d-displayError {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background-color: rgba(29, 27, 35, 0.2);
+}
+
+.d-displayError {
+  background: #110e18cc;
+}
+
+.innerDisplayError,
+.d-innerDisplayError {
+  height: 250px;
+  width: 370px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: #fcfcfc;
+  border: 1px solid #b7b4b4;
+}
+
+.d-innerDisplayError {
+  background: #191622;
+  border: 1px solid #57565c;
+}
+
+.errorText,
+.d-errorText {
+  color: #363636;
+  font-family: Nunito Sans;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+}
+
+.d-errorText {
+  color: #fcfcfc;
+}
+
+.errorClose,
+.d-errorClose {
+  background: #6e44ff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #fcfcfc;
+  border: none;
+  width: 120px;
+  height: 42px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.d-errorClose {
+}
+
+.reactivateButtons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.reactivateY,
+.d-reactivateY {
+  background: #6e44ff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #fcfcfc;
+  border: none;
+  width: 120px;
+  height: 42px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.reactivateN,
+.d-reactivateN {
+  background: #524e5f;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #fcfcfc;
+  border: none;
+  width: 120px;
+  height: 42px;
+  border-radius: 12px;
+  cursor: pointer;
+}
